@@ -13,8 +13,8 @@ body {
 }
 
 .button {
-    width: 235px;
-    height: 250px;
+    width: 215px;
+    height: 230px;
 }
 .container {
     position: relative;
@@ -29,7 +29,10 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-
+img {
+    height: 125px;
+    width: 150px;
+}
 #ironthrone {
 
 }
