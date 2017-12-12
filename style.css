@@ -1,6 +1,35 @@
+h1 {
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+}
+
+.button {
+    width: 235px;
+    height: 250px;
+}
 .container {
     position: relative;
     text-align: center;
     color: black;
     border: 2px solid red;
+    max-width: 1100px;
+    justify-content: space-between;
   }
+
+.a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ironthrone {
+
+}
