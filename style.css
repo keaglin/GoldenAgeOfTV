@@ -3,20 +3,30 @@ h1 {
 }
 
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center */
 }
 
 .title {
     display: flex;
 }
 
+/* .comp {
+    width: 230px;
+    height: 230px;
+} */
+
 .button {
-    width: 215px;
+    border: 2px solid black;
+    width: 230px;
     height: 230px;
 }
 .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     text-align: center;
     color: black;

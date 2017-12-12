@@ -44,13 +44,18 @@ var flashcards = [
 
 
 
-var question1answer = "Big Bang Theory"
+var question1Answer = "Big Bang Theory"
 // The required answer for 'question1'to be correct
 var card1StartButton = document.querySelectorAll('button')[0]
-// The card 1 - which is itself a button
 card1StartButton.addEventListener('click', function () {
-    console.log(document.querySelector('.question1'))
+    //console.log(document.querySelector('.question1'))
+    let answer = document.querySelector('#answer-compilation').value
+        console.log(answer)
+    //document.querySelector('#answer-compilation')
 })
+// The card 1 - which is itself a button - button is clicked on to reveal the first question
+
+
 // The game begins on a landing page with the title "The Golden Age of Television", the picture of the front of the first flashcard (compilation of show [pictures]) and the word "Start"
 
 // Upon 'click'ing the 'Start' button (located on/within 'Card1), 'Card1' will flip over to reveal 'question1' - ""
