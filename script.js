@@ -45,13 +45,75 @@ var flashcards = [
 
 
 var question1Answer = "Big Bang Theory"
-// The required answer for 'question1'to be correct
+// The required answer for 'question1' to be correct
 var card1StartButton = document.querySelectorAll('button')[0]
 card1StartButton.addEventListener('click', function () {
-    //console.log(document.querySelector('.question1'))
+    
     let answer = document.querySelector('#answer-compilation').value
         console.log(answer)
-    //document.querySelector('#answer-compilation')
+})
+
+var question2Answer = "Netflix"
+// The required answer for 'question ' to be correct
+var card2Button = document.querySelectorAll('button')[1]
+card2Button.addEventListener('click', function () {
+   
+    let answer = document.querySelector('#answer-blockbuster').value
+        console.log(answer)
+})
+
+var question3Answer = "House of Cards"
+// The required answer for 'question ' to be correct
+var card3Button = document.querySelectorAll('button')[2]
+card3Button.addEventListener('click', function () {
+   
+    let answer = document.querySelector('#answer-whitehouse').value
+        console.log(answer)
+})
+
+var question4Answer = "The Handmaids Tale"
+// The required answer for 'question ' to be correct
+var card4Button = document.querySelectorAll('button')[3]
+card4Button.addEventListener('click', function () {
+   
+    let answer = document.querySelector('#answer-hulu').value
+        console.log(answer)
+})
+
+var question5Answer = "This is Us"
+// The required answer for 'question ' to be correct
+var card5Button = document.querySelectorAll('button')[4]
+card5Button.addEventListener('click', function () {
+    
+    let answer = document.querySelector('#answer-tissues').value
+        console.log(answer)
+})
+
+var question6Answer = "The Deuce"
+// The required answer for 'question ' to be correct
+var card6Button = document.querySelectorAll('button')[5]
+card6Button.addEventListener('click', function () {
+    
+    let answer = document.querySelector('#answer-twins').value
+        console.log(answer)
+})
+
+var question7Answer = "Insecure"
+// The required answer for 'question ' to be correct
+var card7Button = document.querySelectorAll('button')[6]
+card7Button.addEventListener('click', function () {
+    
+    let answer = document.querySelector('#answer-issa').value
+        console.log(answer)
+})
+
+var question8Answer = "Game of Thrones"
+// The required answer for 'question ' to be correct
+var card8Button = document.querySelectorAll('button')[7]
+card8Button.addEventListener('click', function () {
+    
+    let answer = document.querySelector('#answer-iron').value
+        console.log(answer)
 })
 // The card 1 - which is itself a button - button is clicked on to reveal the first question
 

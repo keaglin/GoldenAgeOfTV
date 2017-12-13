@@ -1,12 +1,11 @@
 h1 {
-
+display:flex;
+justify-content: center;
 }
 
 body {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center */
+    background: ;
+/* got from https://www.transparenttextures.com/ */
 }
 
 .title {
@@ -22,6 +21,8 @@ body {
     border: 2px solid black;
     width: 230px;
     height: 230px;
+    margin: 10px 0;
+    padding: 25px 12px 0 12px;
 }
 .container {
     display: flex;
@@ -39,6 +40,11 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+input {
+    margin: 9px 3px;
+}
+
 img {
     height: 125px;
     width: 150px;
