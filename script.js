@@ -76,9 +76,9 @@ var arr = [];
 // Conversion of a NodeList to an array - 
 arr.shift()
 // Removes first item from array - from W3School
-for(var i = answerList; i = true; i++){
-    console.log(i)
-  }// Where I left off-------------------------------^^^
+// for(var i = answerList; i = true; i++){
+//     console.log(i)
+//   }// Where I left off-------------------------------^^^
 // loop through array
 // add disabled to each input/button inside of items
 
