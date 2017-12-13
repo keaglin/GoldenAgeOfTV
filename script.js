@@ -51,7 +51,16 @@ card1StartButton.addEventListener('click', function () {
     
     let answer = document.querySelector('#answer-compilation').value
         console.log(answer)
+    if (answer === "Big Bang Theory") {
+        console.log("Correct! [BBT catch phrase]")
+         alert("Correct! Move on to card #2")
+    } else {
+        console.log("Wrong!")
+        alert("Wrong. Try again!")
+    }
 })
+
+
 
 var question2Answer = "Netflix"
 // The required answer for 'question ' to be correct
