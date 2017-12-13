@@ -40,7 +40,7 @@ var flashcards = [
         cardImage: "[saved in project folder]"
     }
     ];
-// Example for array ^^ used from WDI pre-work Matching Game
+// Example for array ^^ gotten from WDI pre-work Matching Game
 
 
 
@@ -51,14 +51,37 @@ card1StartButton.addEventListener('click', function () {
     
     let answer = document.querySelector('#answer-compilation').value
         console.log(answer)
+    // Got help with above 2 lines from Maike
     if (answer === "Big Bang Theory") {
         console.log("Correct! [BBT catch phrase]")
          alert("Correct! Move on to card #2")
+         // remove disabled from input & button of next question
     } else {
         console.log("Wrong!")
         alert("Wrong. Try again!")
     }
-})
+    })
+
+// attempt ^^^ to disable the and submit buttons until the previous answer has been correctly answered. Will try again below.
+
+// use querySelectorAll / getElementsByClassname (return an array of input elements)
+
+
+
+var answerList = document.querySelectorAll('input')
+    console.log(answerList)
+// Creation of the Node List of all the 'input' fields
+var arr = [];
+    for(var i = answerList.length; i--; arr.unshift(answerList[i]));
+// Conversion of a NodeList to an array - 
+arr.shift()
+// Removes first item from array - from W3School
+for(var i = answerList; i = true; i++){
+    console.log(i)
+  }// Where I left off-------------------------------^^^
+// loop through array
+// add disabled to each input/button inside of items
+
 
 
 
@@ -69,6 +92,14 @@ card2Button.addEventListener('click', function () {
    
     let answer = document.querySelector('#answer-blockbuster').value
         console.log(answer)
+
+    if (answer === "Netflix") {
+            console.log("Correct! [Netflix catch phrase]")
+             alert("Correct! Move on to card #3")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 
 var question3Answer = "House of Cards"
@@ -78,6 +109,14 @@ card3Button.addEventListener('click', function () {
    
     let answer = document.querySelector('#answer-whitehouse').value
         console.log(answer)
+
+    if (answer === "House of Cards") {
+            console.log("Correct! [HOC catch phrase]")
+             alert("Correct! Move on to card #4")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 
 var question4Answer = "The Handmaids Tale"
@@ -87,6 +126,14 @@ card4Button.addEventListener('click', function () {
    
     let answer = document.querySelector('#answer-hulu').value
         console.log(answer)
+
+    if (answer === "The Handmaids Tale") {
+            console.log("Correct! [HT catch phrase]")
+             alert("Correct! Move on to card #5")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 
 var question5Answer = "This is Us"
@@ -96,6 +143,14 @@ card5Button.addEventListener('click', function () {
     
     let answer = document.querySelector('#answer-tissues').value
         console.log(answer)
+
+    if (answer === "This is Us") {
+            console.log("Correct! [TIU catch phrase]")
+             alert("Correct! Move on to card #6")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 
 var question6Answer = "The Deuce"
@@ -105,6 +160,14 @@ card6Button.addEventListener('click', function () {
     
     let answer = document.querySelector('#answer-twins').value
         console.log(answer)
+
+    if (answer === "The Deuce") {
+            console.log("Correct! [TD catch phrase]")
+             alert("Correct! Move on to card #7")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 
 var question7Answer = "Insecure"
@@ -114,6 +177,14 @@ card7Button.addEventListener('click', function () {
     
     let answer = document.querySelector('#answer-issa').value
         console.log(answer)
+
+    if (answer === "Insecure") {
+            console.log("Correct! [I catch phrase]")
+             alert("Correct! Move on to card #7")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 
 var question8Answer = "Game of Thrones"
@@ -123,6 +194,14 @@ card8Button.addEventListener('click', function () {
     
     let answer = document.querySelector('#answer-iron').value
         console.log(answer)
+
+    if (answer === "Game of Thrones") {
+            console.log("Correct! [Winter catch phrase]")
+             alert("Correct! Move on to card #7")
+    } else {
+            console.log("Wrong!")
+            alert("Wrong. Try again!")
+    }
 })
 // The card 1 - which is itself a button - button is clicked on to reveal the first question
 
