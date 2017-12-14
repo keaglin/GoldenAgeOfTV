@@ -51,8 +51,6 @@ body {
     justify-content: space-around;
     /* align-items: center; */
     margin: 0 0 0 75px;
-    /* background-image: url('images/silvertv.gif'); */
-    /* got from https://www.transparenttextures.com/ */
   }
 
 .a {
@@ -71,13 +69,6 @@ img {
 
 #compilation {
    /* margin: 35px 0 0 0; */
-}
-
-#blockbuster {
-    /* background-image: url('images/blockbuster.gif');
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
-    background-position: center; */
 }
  /* stack overflow for transform */
 .button:hover {
@@ -141,3 +132,6 @@ img {
 	position:relative;
 	top:1px;
 }
+
+/* testing  */
+
