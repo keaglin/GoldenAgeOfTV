@@ -55,7 +55,8 @@ card1StartButton.addEventListener('click', function () {
     if (answer === "Big Bang Theory") {
         console.log("Correct! [BBT catch phrase]")
          alert("Correct! Move on to card #2")
-         // remove disabled from input & button of next question
+         card1StartButton.setAttribute('disabled', true)
+         // remove disabled from input & button of next question - Maikel
     } else {
         console.log("Wrong!")
         alert("Wrong. Try again!")
@@ -68,13 +69,13 @@ card1StartButton.addEventListener('click', function () {
 
 
 
-var answerList = document.querySelectorAll('input')
-    console.log(answerList)
+// var answerList = document.querySelectorAll('input')
+ //   console.log(answerList)
 // Creation of the Node List of all the 'input' fields
-var arr = [];
-    for(var i = answerList.length; i--; arr.unshift(answerList[i]));
+//var arr = [];
+//   for(var i = answerList.length; i--; arr.unshift(answerList[i]));
 // Conversion of a NodeList to an array - 
-arr.shift()
+// arr.shift()
 // Removes first item from array - from W3School
 // for(var i = answerList; i = true; i++){
 //     console.log(i)
@@ -96,6 +97,7 @@ card2Button.addEventListener('click', function () {
     if (answer === "Netflix") {
             console.log("Correct! [Netflix catch phrase]")
              alert("Correct! Move on to card #3")
+             card2Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -113,6 +115,7 @@ card3Button.addEventListener('click', function () {
     if (answer === "House of Cards") {
             console.log("Correct! [HOC catch phrase]")
              alert("Correct! Move on to card #4")
+             card3Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -130,6 +133,7 @@ card4Button.addEventListener('click', function () {
     if (answer === "The Handmaids Tale") {
             console.log("Correct! [HT catch phrase]")
              alert("Correct! Move on to card #5")
+             card4Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -147,6 +151,7 @@ card5Button.addEventListener('click', function () {
     if (answer === "This is Us") {
             console.log("Correct! [TIU catch phrase]")
              alert("Correct! Move on to card #6")
+             card5Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -164,6 +169,7 @@ card6Button.addEventListener('click', function () {
     if (answer === "The Deuce") {
             console.log("Correct! [TD catch phrase]")
              alert("Correct! Move on to card #7")
+             card6Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -181,6 +187,7 @@ card7Button.addEventListener('click', function () {
     if (answer === "Insecure") {
             console.log("Correct! [I catch phrase]")
              alert("Correct! Move on to card #7")
+             card7Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -198,6 +205,7 @@ card8Button.addEventListener('click', function () {
     if (answer === "Game of Thrones") {
             console.log("Correct! [Winter catch phrase]")
              alert("Correct! Move on to card #7")
+             card8Button.setAttribute('disabled', true)
     } else {
             console.log("Wrong!")
             alert("Wrong. Try again!")
@@ -216,50 +224,8 @@ card8Button.addEventListener('click', function () {
 // If the answer is correct, an [alert] will pop up saying "Correct, now click on the NEXT flashcard" 
 // Correct answers include [both capitalized and uncapitalized, ]
 
-    // The acceptable answers for question1 include:
-        // "The Big Bang Theory" 
-        // "Big Bang Theory"
-        // "big bang theory"
-        // "TBBT"
-        // "tbbt"
-    // The acceptable answers for question2
-        // "Netflix"
-        // "netflix"
-    // The acceptable answers for question3
-        // "House of Cards"
-        // "house of cards"
-        // "HOC"
-    // The acceptable answers for question4
-        // "The Handmaid's Tale"
-        // "Handmaid's Tale"
-        // "the handmaid's tale"
-        // "handmaid's tale"
-        // "The Handmaids Tale"
-        // "Handmaids Tale"
-        // "handmaid tale"
-    // The acceptable answers for question5
-        // "This Is Us"
-        // "this is us"
-        // "This is us"
-    // The acceptable answers for question6
-        // "The Deuce"
-        // "the deuce"
-        // "Deuce"
-        // "deuce"
-    // The acceptable answers for question7
-        // "Insecure"
-        // "insecure"
-    // The acceptable answers for question8
-        // "Game of Thrones"
-        // "The Game of Thrones"
-        // "game of thrones"
-        // "the game of thrones"
-        // "GOT"
 
 // If 'question1-question8' are incorrect, an [alert] will say "Wrong, try again", then disappear - reshowing the failed question
 
 // If the answer to any of 'question1'-'question8' is not correct, prevent it from allowing the next sequence to continue
 
-
-
-// This variable value that should go onto the back-side of the first card
