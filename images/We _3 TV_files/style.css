@@ -75,6 +75,22 @@ input {
     margin: 25px 0 0 0; 
 }
 
+#answer-whitehouse {
+    margin: 25px 0 0 0;
+}
+
+#answer-hulu {
+    margin: 25px 0 0 0;
+}
+
+#answer-tissues {
+    margin: 25px 0 0 0;
+}
+
+#answer-twins {
+    /* margin: 5px 0 0 0; */
+}
+
 #answer-issa {
     margin: 20px 0 0 0;
 }
@@ -83,7 +99,7 @@ input {
     margin: 9px 0 0 0;
 }
 
-/* Contribution from button generator https://www.bestcssbuttongenerator.com/*/
+/* button generator https://www.bestcssbuttongenerator.com/*/
 .submit { 
 	box-shadow:inset 0px 0px 0px 0px #ca0a0a;
     background: rgba(0, 0, 0, 0.5);
