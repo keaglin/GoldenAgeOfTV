@@ -20,7 +20,12 @@ body {
     height: 230px;
     margin: 10px 0;
     padding: 25px 12px 0 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(207, 148, 29);
+    /* background: black; */
+    box-shadow: 5px 10px black;
 }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -30,7 +35,9 @@ body {
     color: black;
     max-width: 1100px;
     border: 2px solid red;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0 0 0 75px;
   }
 
 .a {
@@ -47,3 +54,45 @@ img {
     width: 150px;
 }
 
+#compilation {
+    /* background-image: url('images/binge-watching.jpg');
+    background-repeat: no-repeat;
+    background-size: 240px 240px;
+    background-position: center; */
+}
+
+#blockbuster {
+    /* background-image: url('images/blockbuster.gif');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center; */
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0.205);
+}
+  
+
+#whitehouse { 
+
+}
+
+#hulu {
+
+}
+
+#tissue {
+
+}
+
+#twins {
+
+}
+
+#issarae {
+
+}
+
+#ironthrone {
+
+}
