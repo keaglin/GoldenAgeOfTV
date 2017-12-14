@@ -25,10 +25,10 @@ body {
     height: 230px;
     margin: 7px 0;
     padding: 25px 12px 0 12px;
-    color: rgb(255, 255, 255);
+    color: rgb(247, 240, 240);
     text-shadow: 3px 3px 5px rgb(207, 148, 29);
     /* background: black; */
-    box-shadow: 5px 15px black;
+    box-shadow: 5px 15px rgba(0, 0, 0, .7);
     background-image: url('images/silvertv.gif');
     background-repeat: no-repeat;
     background-size: 200px 200px;
@@ -36,6 +36,7 @@ body {
     /* opacity: 0.6; */
     font-family: "Jazz LET", fantasy;
     border-radius:28px;
+    font-size: 15px;
 }
 
 .container {
@@ -80,9 +81,9 @@ img {
 }
  /* stack overflow for transform */
 .button:hover {
-    background: rgba(0, 0, 0, 0.205);
+    background: rgba(0, 0, 0, 0.505);
     transform: scale(1.7);
-    color: white;
+    color: rgb(211, 176, 23);
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
     font-weight: bolder;
 }
@@ -115,24 +116,21 @@ img {
     margin: 20px 0 0 0;
 }
 
+/* button generator https://www.bestcssbuttongenerator.com/*/
 .submit { 
-	/* -moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
-	/* -webkit-box-shadow:inset 0px 0px 0px 0px #ffffff; */
 	box-shadow:inset 0px 0px 0px 0px #ca0a0a;
     background: rgba(0, 0, 0, 0.5);
     background-image: url('images/silvertv.gif'); 
-	/* -moz-border-radius:28px;
-	-webkit-border-radius:28px; */
     border-radius:28px;
 	border:1px solid #e6b217;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Courier New;
+	font-family:font-family: "Jazz LET", fantasy;
 	font-size:12px;
 	font-weight:bolder;
 	font-style:italic;
-	padding:16px 31px;
+	padding:12px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
 }
