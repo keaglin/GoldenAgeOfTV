@@ -6,6 +6,7 @@ h1 {
     font-weight: bolder;
     text-shadow: 4px 4px 0px rgb(0, 0, 0);
     font-size: 58px;
+    font-style: italic;
     font-variant: small-caps;
     margin: 5px 0 5px 0;
 }
@@ -24,7 +25,7 @@ body {
     width: 175px;
     height: 175px;
     margin: 27px;
-    padding: 25px 12px 20px 12px;
+    padding: 12px 12px 20px 12px;
     color: rgb(247, 240, 240);
     text-shadow: 3px 3px 5px rgb(207, 148, 29);
     /* background: black; */
@@ -39,6 +40,11 @@ body {
     font-size: 13px;
 }
 
+/* button.submit:visited {
+    color: red;
+    background-color: white;
+} */
+
 .container {
     display: flex;
     flex-direction: row;
@@ -49,7 +55,7 @@ body {
     color: black;
     /* max-width: auto; */
     max-height: 1200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-around;
     justify-items: space-around;
     /* align-items: center; */
@@ -78,12 +84,20 @@ input {
     margin: 25px 0 0 0; 
 }
 
+#answer-blockbuster {
+    margin: 1px 0 0 0;
+}
+
+#answer-hulu {
+    margin: 1px 0 0 0;
+}
+
 #answer-issa {
     margin: 20px 0 0 0;
 }
 
 #answer-iron {
-    margin: 9px 0 0 0;
+    margin: 2px 0 0 0;
 }
 
 /* Contribution from button generator https://www.bestcssbuttongenerator.com/*/
@@ -100,7 +114,7 @@ input {
 	font-size: 11px;
 	font-weight:bolder;
 	font-style: italic;
-	padding: 8px 14px;
+	padding: 5px 18px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #000000;
 }
