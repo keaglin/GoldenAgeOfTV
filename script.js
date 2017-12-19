@@ -2,7 +2,8 @@
 // Object containing all of the card answers
 var flashcards = [
     {
-        Answer: "Big Bang Theory",
+        question: 'Test question?',
+        Answer: "Big Bang Theory"
     },
     {
         Answer: "Netflix",
@@ -47,6 +48,16 @@ card1StartButton.addEventListener('click', function () {
         alert("Wrong! Try again! Think rocket scientists....")
     }
     })
+// Kevon's suggestions for DRYing out code
+var submitButtons = document.querySelectorAll('.submitAnswer')
+for (var i = 0; i < submitButtons.length; i++) {
+  submitButtons[i].addEventListener('click', test)
+}
+
+function test() {
+  // do stuff
+  // 
+}
 
 var question2Answer = "Netflix"
 var card2Button = document.querySelectorAll('button')[1]
